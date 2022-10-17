@@ -1,0 +1,125 @@
+
+/* *{
+    margin: 0;
+    padding : 0;
+  } */
+  /* .bignav {
+padding: 20px;
+height: 80px;
+width: 1530px;
+display: flex;
+  } */
+
+  /* .profile {
+      width: 200px;
+      height: 50px;
+      font-size: medium;
+      margin-right: 100px;
+  } */
+  
+  .yt-menu {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  header {
+  position: relative;
+  }
+  
+  #mycheckbox { display: none;}
+  
+  .menu-toggler {
+    position : absolute;
+    top: 0.5rem;
+    left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #f7f7f7;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    z-index: 1000;
+    outline: none;
+  
+  }
+  
+  
+  .menu-toggler > i {
+    font-size: 1.7rem;
+    color: #000000;
+    margin: auto ;
+  }
+  
+  
+  .main-nav {
+    width: 15rem;
+    height: 100vh;
+    position: fixed;
+    background-color:#f7f7f7 ;
+  text-align:center;
+  top: 0;
+  left: -25rem;
+  display: flex;
+  transition: all 650ms;
+  
+  }
+  
+  
+  
+  .main-nav ul {
+    margin : auto ;
+    list-style: none;
+  }
+  
+  
+  /* .nav-item {
+    margin : 0.1rem 0;
+  } */
+  
+  /* .nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+  } */
+  
+  
+  .nav-link:hover {
+    color: #5c5c5c;
+  }
+  
+  #mycheckbox:checked~.main-nav {
+    left : 0 ;
+  }
+
+
+#nav{
+    margin-top: -10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -200px;
+    width: 300px;
+    border-radius: 15px;
+    height: 110%;
+    margin-bottom: -20px;
+    border: solid 2px rgb(177, 177, 177);
+}
+.item {
+    height: 40px;
+   width: fit-content;
+}
+.triplebutton {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    color: rgb(34, 34, 34);
+}
+.tripleicons {
+    height: 50px;
+    width: 50px;
+}
+
+.searchbar {
+    display: flex;
+    width: 500px;
+    margin-right: 170px;
+    margin-left: 250px;
+}

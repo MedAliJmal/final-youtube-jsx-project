@@ -1,0 +1,50 @@
+.profcont {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.profcont h4 {
+    font-size: 12px;
+    width: 80px;
+}
+
+.profcont img {
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.profdetails {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin: 0px 175px 00px 15px ;
+}
+
+.profdetails h5 {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profdetails p {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.barre-outils {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.barre-outils h4 {
+    height: 100%;
+    text-align: center;
+    justify-self: center;
+    margin-top: 8px;
+
+}
